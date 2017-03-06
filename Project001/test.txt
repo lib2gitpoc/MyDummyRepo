@@ -12,3 +12,4 @@ theirs 8
 1
 
 test
+one more line
