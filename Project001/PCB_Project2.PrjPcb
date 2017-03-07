@@ -110,23 +110,6 @@ GenerateClassCluster=0
 DocumentUniqueId=LBBMNMMV
 
 [Document5]
-DocumentPath=PCB2.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BQMQMGUT
-
-[Document6]
 DocumentPath=test.txt
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,6 +134,7 @@ ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=
+ConfigurationType=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -257,22 +241,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=XSpice Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=\\PRINT\Safe_Print
+TargetPrinter=\\VMSAFEQDP\KONICA MINOLTA 423SeriesPCL-8
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -720,6 +694,11 @@ OutputName6=Export VRML
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=Specctra Design PCB
+OutputName7=Specctra Design PCB
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -834,6 +813,8 @@ Type98=1
 Type99=1
 Type100=1
 Type101=1
+Type102=1
+Type103=1
 
 [Difference Levels]
 Type1=1
@@ -894,6 +875,7 @@ Type55=1
 Type56=1
 Type57=1
 Type58=1
+Type59=1
 
 [Electrical Rules Check]
 Type1=1
