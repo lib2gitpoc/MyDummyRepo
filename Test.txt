@@ -7,3 +7,4 @@ Test
 mgoff
 yjtyj
 one more line
+#1646 - BUG - "Update whole project" doesn't work for Git projects [1]
