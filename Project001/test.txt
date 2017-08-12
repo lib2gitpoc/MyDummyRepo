@@ -13,3 +13,4 @@ theirs 8
 
 test
 one more line
+#1646 - BUG - "Update whole project" doesn't work for Git projects [inner]
